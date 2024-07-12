@@ -1,0 +1,91 @@
+.col-6 img{
+    height: 600px;
+    padding-left: 0;
+    width: 100%;
+    
+}
+#img h1{
+    
+    position: absolute;
+    z-index: 1;
+}
+#img {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    border: 1px solid rgb(226, 216, 216);
+    height: 600px;
+    position: relative;
+    top:100px;
+    box-shadow: 1px 1px 10px rgb(226, 216, 216) ;
+    border-radius: 10px;
+    
+}
+.col-6{
+    text-align: center;
+    
+}
+
+.col-6 h1{
+    padding-top: 20px;
+}
+.field legend{
+    border: 1px solid black;
+}
+
+#word input{
+    border: 1px solid rgb(38, 125, 206);
+    margin: 15px;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+#word h1{
+    color: rgb(38, 125, 206);
+    font-size: 40px;
+}
+
+#word p{
+    font-size: 16px;
+}
+
+#word button{
+    background-color: rgb(38, 125, 206);
+    color: white;
+    border: 1px solid rgb(38, 125, 206);
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.bottom{
+    margin-top: 30px;
+}
+
+.bottom img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid rgb(178, 178, 211);
+    background-color: rgb(199, 199, 224);
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    
+}
+#word .for{
+    float: right;
+    margin-top: 0px;
+}
+
+
+#word input:active{
+ outline:1px solid blue;
+}
+    
